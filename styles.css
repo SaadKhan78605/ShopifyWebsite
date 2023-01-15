@@ -1,0 +1,481 @@
+/* ID'S */
+
+
+#card-heading-1 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#card-1-img {
+    filter: invert(1);
+}
+
+#card-heading-2 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#card-heading-3 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact {
+    background-color: black;
+    color: white;
+}
+
+#services {
+    background-color: #b5b5b5;
+}
+
+#contact-h1 {
+    font-size: 3.5rem;
+}
+
+#containerkiid {
+    padding: 0;
+    margin: 0;
+    width: 890px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#first-div {
+    margin: auto;
+}
+
+#second-div {
+    margin: auto;
+}
+
+#third-div {
+    margin: auto;
+}
+
+#fourth-div {
+    margin: auto;
+}
+
+#contact {
+    padding: 20px 0 20px 0;
+}
+
+#about {
+    background-color: #e8e7e7;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#second-carousel {
+    position: absolute;
+    right: 15%;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+    bottom: 48rem;
+}
+
+#third-carousel {
+    position: absolute;
+    right: 15%;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+    bottom: 26rem;
+}
+
+#first-carousel {
+    position: absolute;
+    right: 15%;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+    bottom: 37rem;
+}
+
+#services-h1 {
+    font-size: 3.5rem;
+}
+
+
+
+/* CLASSES */
+
+
+
+.carousel-inner::before {
+    position: absolute;
+    content: " ";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.carousel-caption {
+    z-index: 2;
+}
+
+.carousel-caption h5 {
+    font-size: 5rem;
+}
+
+.carousel-caption p {
+    font-size: 1.4rem;
+}
+
+.row {
+    padding: 0 10px 0 10px;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+.card {
+    margin-right: 50px;
+}
+
+.card {
+    width: 350px;
+    height: 350px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+/* FOOTER SECTION */
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    background-color: #e8e7e7;
+    color: black;
+}
+
+footer p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 1334px) {
+    #first-carousel {
+        bottom: 21rem;
+    }
+}
+
+@media screen and (max-width: 1051px) {
+    #carousel-h5-1 {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 864px) {
+    #first-carousel {
+        bottom: 12rem;
+    }
+
+    #carousel-h5-1 {
+        font-size: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 743px) {
+    #carousel-h5-1 {
+        font-size: 2.5rem;
+    }
+
+    #first-carousel {
+        bottom: 9rem;
+    }
+}
+
+@media screen and (max-width: 528px) {
+    #carousel-h5-1 {
+        font-size: 2rem;
+    }
+
+    #first-carousel {
+        bottom: 3rem;
+    }
+
+    .carousel-caption p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    #carousel-h5-1 {
+        font-size: 1.4rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 318px) {
+    .carousel-caption {
+        display: none;
+    }
+}
+
+
+/* SECOND SLIDER IMAGE */
+
+@media screen and (max-width: 1331px) {
+    #second-carousel {
+        bottom: 29rem;
+    }
+}
+
+@media screen and (max-width: 958px) {
+    #second-carousel {
+        bottom: 19rem;
+    }
+
+    #carousel-h5-2 {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 764px) {
+    #carousel-h5-2 {
+        font-size: 3rem;
+    }
+
+    #second-carousel {
+        bottom: 13rem;
+    }
+}
+
+@media screen and (max-width: 574px) {
+    #carousel-h5-2 {
+        font-size: 2.5rem;
+    }
+
+    #second-carousel {
+        bottom: 10rem;
+    }
+}
+
+@media screen and (max-width: 483px) {
+    #carousel-h5-2 {
+        font-size: 2rem;
+    }
+
+    #second-carousel {
+        bottom: 7rem;
+    }
+}
+
+@media screen and (max-width: 387px) {
+    #carousel-h5-2 {
+        font-size: 1.6rem;
+    }
+
+    #second-carousel {
+        bottom: 6rem;
+    }
+}
+
+@media screen and (max-width: 332px) {
+    #second-carousel {
+        bottom: 5.2rem;
+    }
+}
+
+/* THIRD CAROUSEL IMAGE */
+
+@media screen and (max-width:1367px) {
+    #carousel-h5-3 {
+        font-size: 3.5rem;
+    }
+
+    #third-carousel {
+        bottom: 13rem;
+    }
+}
+
+@media screen and (max-width: 907px) {
+    #carousel-h5-3 {
+        font-size: 2.5rem;
+    }
+
+    #third-carousel {
+        bottom: 10rem;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    #carousel-h5-3 {
+        font-size: 2rem;
+    }
+
+    #third-carousel {
+        bottom: 7rem;
+    }
+}
+
+@media screen and (max-width: 586px) {
+    #carousel-h5-3 {
+        font-size: 1.7rem;
+    }
+
+    #third-carousel {
+        bottom: 5rem;
+    }
+}
+
+@media screen and (max-width: 513px) {
+    #carousel-h5-3 {
+        font-size: 1.4rem;
+    }
+
+    #third-carousel {
+        bottom: 3.7rem;
+    }
+}
+
+@media screen and (max-width: 435px) {
+    #carousel-h5-3 {
+        font-size: 1.2rem;
+    }
+
+    #third-carousel {
+        bottom: 2.8rem;
+    }
+}
+
+@media screen and (max-width: 364px) {
+    #carousel-h5-3 {
+        font-size: 1rem;
+    }
+
+    #third-carousel {
+        bottom: 2.2rem;
+    }
+}
+
+/* UL */
+
+@media screen and (max-width: 991px) {
+    ul {
+        text-align: center;
+    }
+}
+
+
+/* ABOUT SECTION */
+
+@media screen and (max-width: 769px) {
+    .about-img {
+        margin-bottom: 35px;
+    }
+}
+
+
+/* SERVICES SECTION */
+
+@media screen and (max-width: 800px) {
+    .card {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 549px) {
+    #services-h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    #services-h1 {
+        font-size: 2rem;
+    }
+}
+
+/* CONTACT SECTION */
+
+@media screen and (max-width: 577px) {
+    #containerkiid {
+        width: 501px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #containerkiid {
+        width: 380px;
+    }
+
+    #contact-h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 385px) {
+    #containerkiid {
+        width: 300px;
+    }
+
+    #contact-h1 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 304px) {
+    #containerkiid {
+        width: 280px;
+    }
+
+    #contact-h1 {
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    #containerkiid {
+        width: 250px;
+    }
+
+    #contact-h1 {
+        font-size: 1.3rem;
+    }
+}
+
+
+/* FOOTER SECTION */
+
+@media screen and (max-width: 391px) {
+    footer p {
+        font-size: 17px;
+    }
+}
